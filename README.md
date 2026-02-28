@@ -16,10 +16,11 @@ Untuk mendapatkan versi terbaru yang stabil dan siap pakai, silakan ikuti langka
 
 ### 📝 Cara Pemasangan
 1. Masukkan file `eanticheat.inc` yang sudah didownload ke folder `pawno/include/` server kamu.
-2. Tambahkan baris `#include <eanticheat>` dibagian atas script Gamemode kamu.
-3. Pastikan koneksi MySQL kamu menggunakan variabel `g_SQL` agar sistem ban otomatis berjalan lancar.
-4. *Compile* gamemode kamu dan jalankan servernya!
+2. Ganti structure `blacklist` dengan structure system banned didatabase kamu!
+3. Tambahkan baris `#include <eanticheat>` dibagian atas script Gamemode kamu.
+4. Pastikan koneksi MySQL kamu menggunakan variabel `g_SQL` agar sistem ban otomatis berjalan lancar.
+5. *Compile* gamemode kamu dan jalankan servernya!
 
 ---
-**Dibuat dengan dedikasi oleh Engkq.**
+**Dibuat oleh Engkq.**
 *Jika menemukan bug atau mau saran fitur, silakan buka 'Issue' direpository ini!*
